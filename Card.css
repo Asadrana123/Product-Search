@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px 40px;
+    background-color:#E7F5FF;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1971c2;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* <div className='card-footer' >
+           <div className='footer-product-name'>Mobile</div>
+           <div className='footer-product-price'></div>
+      </div> */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-product-name {
+    font-size: 24px;
+}
+
+.footer-product-price {
+    font-weight: bold;
+    font-size: 24px;
+}
