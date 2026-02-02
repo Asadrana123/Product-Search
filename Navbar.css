@@ -29,12 +29,17 @@
     z-index: 999;
     padding: 1px;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .item {
     padding: 20px;
-    font-size: 18px;
+    font-size: 24px;
     cursor: pointer;
+}
+
+.item:hover{
+    background-color: #E7F5FF;
 }
 
 .search {
@@ -54,6 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .search-container {
@@ -71,4 +77,5 @@ input {
     border: none;
     width: 80%;
     height: 45px;
+    font-size: 24px;
 }
